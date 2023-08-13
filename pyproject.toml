@@ -1,0 +1,13 @@
+[project]
+name = "permuto"
+version = "0.1.0"
+
+dependencies=[
+    "nerfstudio>=0.3.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["permuto*"]
+
+[project.entry-points.'nerfstudio.method_configs']
+permutosdf_f = 'permuto.permutosdf_config:permuto_sdf_method'
