@@ -2,15 +2,15 @@
 ├── README.md
 ├── permutosdf
 │   ├── __init__.py
+│   ├── permutosdf_config.py
+│   ├── permutosdf_field.py
+│   ├── permutosdf_model.py
+│   ├── permutosdf_pipeline.py
 │   ├── models
 │   │   ├── models.py
 │   │   └── modules.py
 │   ├── optimizers
 │   │   └── optimizers.py
-│   ├── permutosdf_config.py
-│   ├── permutosdf_field.py
-│   ├── permutosdf_model.py
-│   ├── permutosdf_pipeline.py
 │   ├── schedulers
 │   │   ├── multisteplr.py
 │   │   └── warmup.py
